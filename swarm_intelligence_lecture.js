@@ -52,7 +52,7 @@ class Particle{
     let avg_angle = Math.atan2(avg_sin, avg_cos)
     this.dir = p5.Vector.fromAngle(avg_angle)
     
-    // this.dir = p5.Vector.random2D()
+    // this.dir = createVector(0, 0)
 
 
     // cohesion
